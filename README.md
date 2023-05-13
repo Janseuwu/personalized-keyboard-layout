@@ -19,7 +19,7 @@ After creating your .txt files, simply run the script with `python3 main.py`
 
 No `requirements.txt` is needed, since the program only uses `glob`, which is a standard library
 
-#TODO
+# TODO
 - Customize _entire_ keyboard instead of only letters
 - Take into account keys that are used together or almost never used together
 - Find original ideas instead of stealing linnnus's

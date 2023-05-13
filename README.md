@@ -9,7 +9,7 @@ Simply clone the repo with `git clone https://github.com/Janseuwu/personalized-k
 
 ## Usage
 The program takes samples from .txt files. Therefore, in order for the script to work properly, you need to put your .txt in the same directory as the script.
-The .txt files should contain the text you want the program to create your personalized keyboard layout for from.
+The .txt files should contain the text you want the program to create your personalized keyboard layout from.
 This can be multiple .txt files. 
 After creating your .txt files, simply run the script with `python3 main.py`
 

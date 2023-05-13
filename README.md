@@ -8,7 +8,7 @@ The idea was stolen from a friend, [linnus](github.com/linnnus). He will probabl
 Simply clone the repo with `git clone https://github.com/Janseuwu/personalized-keyboard-layout.git`
 
 ## Usage
-The program takes samples from .txt files. Therefore, in order for the script to work properly, you need to put your .txt in the samples directory.
+The program takes samples from .txt files. Therefore, in order for the script to work properly, you need to put your .txt in the `samples` directory.
 
 The .txt files should contain the text you want the program to create your personalized keyboard layout from.
 *This can be multiple .txt files*

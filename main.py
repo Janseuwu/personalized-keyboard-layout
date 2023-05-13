@@ -3,7 +3,7 @@ import glob
 def text_data():
     """ Fetch all the .txt files and create a string from the contents of every .txt file in the directory """
 
-    sample_text_files = glob.glob("*.txt") # create a list with each .txt file in the dir
+    sample_text_files = glob.glob("./samples/*.txt") # create a list with each .txt file in the dir
     sample_text = "" # create empty string to concatenate to later
     for file in sample_text_files: # open each .txt file in the list and concatenate the contents to sample_text
         with open(file, "r") as f:
@@ -50,7 +50,8 @@ def create_layout():
     for i, num in enumerate(best_keys_order):
         kb[num] = letters_freq[i][0]
 
-    # prints the keyboard layout in a pretty format :3 (💀)
+    # prints the keyboard layout in a pretty format :3 
+    # TODO probably print it properly instead of this shit 💀
     kb_layout = ""
     for i, letter in enumerate(kb):
         match i:
@@ -61,7 +62,7 @@ def create_layout():
             case _:
                 kb_layout = kb_layout + f"[{letter}]"
 
-    print(kb_layout)
+    print("Your optimized keyboard layout is:\n" + kb_layout)
 
 if __name__ == "__main__":
     create_layout()
